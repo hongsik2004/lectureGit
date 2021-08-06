@@ -1,0 +1,53 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  header {
+      width: 100%;
+      padding: 20px;
+      background-color: aqua;
+  }
+  
+  nav {
+      padding: 20px;
+      background-color: cadetblue;
+  }
+  
+  section {
+      width: 100%;
+      height: 400px;
+  }
+  
+  .a {
+      padding: 20px;
+      width: 100%;
+      height: 30%;
+      background-color: coral;
+  }
+  
+  .b {
+      width: 100%;
+      height: 70%;
+      display: flex;
+  }
+  
+  .b>p {
+      background-color: #ddd;
+      border: solid 1px black;
+      flex: 1;
+  }
+  
+  .b>p:nth-child(2) {
+      flex: 2;
+  }
+  
+  footer {
+      padding: 20px;
+      background-color: saddlebrown;
+  }
